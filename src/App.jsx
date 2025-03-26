@@ -38,7 +38,9 @@ function App() {
       <Navbar />
         {/* <MainIndex/>
        */}
-      <AboutUs/>
+      {/* <AboutUs/> */}
+      {/* <OurTeam/> */}
+      <ContactUS/>
       <Footer/>
       {/* <Footer2/> */}
         {/* <OurTeam/>
