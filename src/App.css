@@ -72,3 +72,32 @@
   transition: opacity 0.3s;
   position: relative;
 }
+
+
+.container-fluid .ServiceHeading{
+  font-size: 30px !important;
+
+}
+
+.talentedteam-slider{
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 2rem !important;
+}
+
+
+.testimonial-slider .myCareerTestimage{
+  width: 100% !important;
+}
+.divmore{
+
+  display: block !important;
+}
+
+.slick-slide .LifeSlidImg{
+  width: 100% !important;
+}
+
+.slick-slide .EventImg{
+  width: 100% !important
+}

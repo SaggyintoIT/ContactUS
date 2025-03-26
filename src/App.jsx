@@ -12,33 +12,46 @@ import './assets/css/intlTelInput.css'
 import './assets/css/sScrollBar.css'
 import './assets/css/slick-theme.css'
 import Footer from "./HomePage/Footer/Footer";
-import HeroBanner from "./HomePage/HeroBanner/Hero";
-import LogoSlider from "./HomePage/LogoSlider/LogoSlider";
-import ServicesSection from "./HomePage/Services/Services";
-import IndustriesSection from "./HomePage/Industries/Industries";
-import OurWorkSection from "./HomePage/OurWork/OurWork";
-import Insights from "./HomePage/Insights/Insights";
-import FAQSection from "./HomePage/FaQ/Faq";
-import TestimonialSection from "./HomePage/Testimonial/Testimonials";
-import AboutBanner from "./AboutUs/AboutBanner";
-import TimelineSlider from "./AboutUs/Timeline";
+
+import Footer2 from "./Subpages/AboutUs/Footer2";
+import ContactUS from "./Subpages/ContactUS/ContactUS";
+import AboutUs from "./Subpages/AboutUs/AboutUs";
+import OurTeam from "./Subpages/OurTeam/OurTeam";
+import MainIndex from "./HomePage/MainIndex";
+import CareerHero from "./Subpages/Career/CareerHero";
+import CareerTestimonial from "./Subpages/Career/CareerTesti";
+import CareerOpening from "./Subpages/Career/CareerOpening";
+import JobOpenings from "./Subpages/Career/CareerOpening";
+import ClientBanner from "./Subpages/Clients/ClientBanner";
+import TrustedBrands from "./Subpages/Clients/TrustedBrands";
+import ClientsMain from "./Subpages/Clients/ClientsMain";
+import PressMedia from "./Subpages/PressMedia/PressMedia";
+import BannerLifeAtInd from "./Subpages/LifeAtIndTech/LifeAtIndBannerLifeArInd";
+import CustomSlider from "./Subpages/LifeAtIndTech/LifeAtIndBannerLifeArInd";
+import EventsFestivals from "./Subpages/LifeAtIndTech/EventsAtInd";
+import BannerFreeCons from "./Subpages/GetFreeCons/BannerFreeCons";
 
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <HeroBanner/>
-      <LogoSlider/>
-      <ServicesSection/>
-      <IndustriesSection/>
-      <OurWorkSection/>
-      <Insights/>
-      <FAQSection/>
-      <TestimonialSection/>
+        {/* <MainIndex/>
+       */}
+      <AboutUs/>
       <Footer/>
-      <AboutBanner/>
-      <TimelineSlider/>
+      {/* <Footer2/> */}
+        {/* <OurTeam/>
+      <ContactUS/>
+      <CareerHero/>
+      <CareerTestimonial/>
+      <JobOpenings/>
+      <ClientsMain/>
+      <PressMedia/>
+     <BannerLifeAtInd/>
+     <EventsFestivals/>
+     <BannerFreeCons/> */}
+
     </Router>
   );
 }

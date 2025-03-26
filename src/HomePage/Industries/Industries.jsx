@@ -9,6 +9,8 @@ import eCommerceImg from "../../assets/images/eCommerce.webp";
 import entertainmentImg from "../../assets/images/Entertainment.webp";
 import healthcareImg from "../../assets/images/Healthcare.webp";
 
+
+
 const IndustriesSection = () => {
   return (
     <>

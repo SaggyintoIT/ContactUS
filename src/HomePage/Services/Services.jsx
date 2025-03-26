@@ -6,7 +6,7 @@ const ServicesSection = () => {
       <div className="container-fluid py-80">
         <div className="row">
           <div className="col-md-12 mb-4">
-            <h2 className="text-white iph24">
+            <h2 className="text-white iph24 ServiceHeading">
               Explore Our Range of Cutting-Edge Services We Offer
             </h2>
           </div>

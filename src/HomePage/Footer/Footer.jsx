@@ -183,7 +183,7 @@ const Footer = () => {
             <div className="col-md-12">
               <img className="footerlogo" src={footerLogo} alt="Footer Logo" />
             </div>
-            <div className="col-sm-12 col-md-4" data-aos="fade-up">
+            <div className="col-sm-12 col-md-4" >
               <div className="pt-5">
                 <div className="d-flex align-items-baseline">
                   <div className="me-1">
@@ -237,7 +237,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-8" data-aos="fade-up">
+            <div className="col-sm-12 col-md-8" >
               <div className="d-md-flex justify-content-between pr-100">
                 <div className="mt-4 mt-md-0">
                   <h4 className="fn-18 text-lgray3">Services</h4>

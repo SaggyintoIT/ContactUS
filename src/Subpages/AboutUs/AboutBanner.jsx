@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/images/aboutslide.png"; // Update the path as needed
+import aboutImage from "../../assets/images/aboutslide.png"; // Update the path as needed
 
 const AboutBanner = () => {
   return (

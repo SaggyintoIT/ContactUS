@@ -5,8 +5,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import TimelineImage from "../assets/images/Timeline.jpg";
-import ActiveBulletImage from "../assets/images/timelineslideractive.png"; // Add your active bullet image
+import TimelineImage from "../../assets/images/Timeline.jpg";
+import ActiveBulletImage from "../../assets/images/timelineslideractive.png"; // Add your active bullet image
 
 const timelineData = [
   {
